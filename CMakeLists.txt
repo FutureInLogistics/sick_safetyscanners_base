@@ -9,7 +9,7 @@ add_definitions(-std=c++11 -Wall -Werror)
 
 
 ## Find system libraries
-find_package(Boost REQUIRED COMPONENTS system thread chrono)
+find_package(Boost COMPONENTS system thread chrono)
 
 
 ###########
