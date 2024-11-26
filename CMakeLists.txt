@@ -22,7 +22,7 @@ if(USE_ROS_LOGGING)
 endif()
 
 ## Declare a cpp library
-add_library(sick_safetyscanners_base SHARED
+add_library(sick_safetyscanners_base
   src/SickSafetyscanners.cpp
   src/cola2/ApplicationNameVariableCommand.cpp
   src/cola2/ChangeCommSettingsCommand.cpp
